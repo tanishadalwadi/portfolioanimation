@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    font-size: 17px;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    /* background-image: linear-gradient(
+      135deg,
+      #6c09ee,
+      #fb36f4
+  ); */
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:purple;
+  }
+  .cvideo{
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+  }
+  #myVideo {
+      z-index: 1;
+    margin-top: 2px;
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 5px 10px #888888; */
+    box-shadow: 4px 4px 6px 6px rgba(187, 75, 75, 0.4);
+  }
+/* #myVideo:before, #myVideo:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  -webkit-box-shadow: 0 35px 20px #777;
+  -moz-box-shadow: 0 35px 20px #777;
+  box-shadow: 0 35px 20px #777;
+  -webkit-transform: rotate(-8deg);
+  -moz-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+#myVideo:after
+{
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+  right: 10px;
+  left: auto;
+} */
+
+  .btn{
+    width:150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    position: absolute;
+    right:    0;
+    bottom:   0;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+  }
+  .btn:hover{
+    background-color: purple;
+  }
+  
+   .container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    bottom: 0;
+    color: #f1f1f1;
+    height: 100vh;
+    background-image: url("https://wallpapercave.com/wp/wp6441597.jpg");
+  } 
+  
